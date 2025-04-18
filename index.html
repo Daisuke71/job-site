@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>求人情報 - テストサイト</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "JobPosting",
+    "title": "法人営業スタッフ",
+    "description": "クライアント企業に対する法人営業を担当していただきます。",
+    "datePosted": "2025-04-18",
+    "validThrough": "2025-05-18T23:59",
+    "employmentType": "FULL_TIME",
+    "hiringOrganization": {
+      "@type": "Organization",
+      "name": "サンプル株式会社",
+      "sameAs": "https://example.com",
+      "logo": "https://example.com/logo.png"
+    },
+    "jobLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "渋谷区",
+        "addressRegion": "東京都",
+        "postalCode": "150-0001",
+        "addressCountry": "JP"
+      }
+    },
+    "baseSalary": {
+      "@type": "MonetaryAmount",
+      "currency": "JPY",
+      "value": {
+        "@type": "QuantitativeValue",
+        "value": 300000,
+        "unitText": "MONTH"
+      }
+    }
+  }
+  </script>
+</head>
+<body>
+  <h1>求人情報</h1>
+  <p><strong>職種：</strong>法人営業</p>
+  <p><strong>会社：</strong>サンプル株式会社</p>
+  <p><strong>勤務地：</strong>東京都渋谷区</p>
+  <p><strong>給与：</strong>月給30万円</p>
+  <p><strong>仕事内容：</strong>法人向け提案営業。未経験歓迎。</p>
+</body>
+</html>
